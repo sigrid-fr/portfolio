@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Sigrid Rodrigues</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-70100154-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a class="btn active" href="#top">Início</a>
+  <a class="btn" href="#sobre">Sobre</a>
+  <a class="btn" href="#portifolio">Portifólio</a>
+  <a class="btn" href="#contato">Contato</a>
+</div>
+	
+	<div class="banner">
+		<a href="https://www.instagram.com/sigridbr.br" title="@sigridbr.br"><img class="photo" src="img/me.jfif" alt="Sigrid"></a>
+		<h1 class="headline">Sigrid Rodrigues</h1>
+		<span class="tagline">Front-end Developer</span>
+	</div><!--/.banner-->
+
+
+<!--sobre-->
+    <section id="sobre">
+    <main class="flex">
+      <div class="card">
+        <h2 class="card-title">Sobre</h2>
+        <p>Sou estudante de Sistemas de Informação e desenvolvedora web front-end e procuro oportunidades para trabalhar nessa área que é algo que gosto bastante.</p>
+        <p>Ao longo da minha jornada universitária, desenvolvi vários sites, alguns para obter notas e outros por hobby, como sites no wordpress por exemplo.</p>
+        <p>Gosto de expandir meus conhecimentos, por isso, faço cursos online em instituições como: Alura, Treinaweb, Coursera e Treehouse, também gostaria de aprender mais sobre desenvolvimento backend e outras linguagens de programação.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">Habilidades</h2>
+        <p>Sempre busco me atualizar e aprender coisas novas e minha jornada dev até agora me permitiu ter conhecimentos em:</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Flutter</li>
+          <li>NodeJS</li>
+          <li>Wordpress</li>
+          <li>PHP</li>
+          <li>Java</li>
+          <li>Angular</li>
+        </ul>
+        <h2 class="card-title">Metas</h2>
+        <p>Gostaria de trabalhar para uma empresa de web design ou como freelancer, ajudando os clientes a atingirem seus objetivos com sites bonitos e responsivos.</p>
+      </div>
+    </main>
+  </section>
+<br><br>
+
+	 <!--portifolio -->
+    <section id="portifolio">
+	<h2 class="title">PORTFÓLIO</h2>
+	<div class="row fc">
+		<div class="item">
+			<a target= "_blank" href="https://sigrid-fr.github.io/muzikBootstrap">
+				<img src="img/muzik.png" alt="muzik">
+			</a>
+			<h3>Site em Bootstrap</h3>
+			<p>Muzik é um protótipo básico em html, css, javascript e bootstrap que simula o cadastro de músicas, artistas e álbuns.</p>
+		</div>
+		<div class="item">
+			<a target= "_blank" href="https://github.com/sigrid-fr/appmaissaudev2">
+				<img src="img/flutter.png" alt="flutter">
+			</a>
+			<h3>Aplicativo em Flutter</h3>
+			<p>O app Mais Saúde tem o intuito de calcular o IMC e classificar a pressão arterial dos usuários cadastrados.</p>
+		</div>
+		<div class="item">
+			<a target= "_blank" href="https://sigrid-fr.github.io/profilePage">
+				<img src="img/profile.png" alt="profile">
+			</a>
+			<h3>Profile Page</h3>
+			<p>Página simples contendo informações básicas e experiências profissionais.</p>
+		</div>
+		<div class="item">
+			<a target= "_blank" href="https://sigrid-fr.github.io/memorial-ifma-v1">
+				<img src="img/memorial.png" alt="memorial">
+			</a>
+			<h3>Memorial IFMA</h3>
+			<p>Modelo inicial do projeto Memorial IFMA, que tem o objetivo de registrar as memórias dos usuários, feito em html, css, javascript.</p>
+		</div>
+		<div class="item">
+			<a target= "_blank" href="https://sigrid-fr.github.io/Conference">
+				<img src="img/conference.png" alt="conference">
+			</a>
+			<h3>Cadastro em Eventos de Tecnologia</h3>
+			<p>Página com informações sobre eventos de tecnologia, horários e palestrantes, há também um formulário de cadastro para próximos eventos.</p>
+		</div>
+		<div class="item">
+			<a target= "_blank" href="https://sigrid-fr.github.io/barbearia">
+				<img src="img/barbearia.png" alt="barbearia">
+			</a>
+			<h3>Barbearia</h3>
+			<p>Página informativa a cerca dos serviços prestados por uma barbearia, bem como uma área para contato.</p>
+		</div>
+	</div>
+   </section>
+ <!--/portifolio -->
+
+<!--contato -->
+   <section id="contato">
+	<form action="https://formspree.io/xoqwjepg" method="POST">
+        <h2 class="title">CONTATO</h2>
+
+        <fieldset>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="user_name">
+
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+
+          <label for="telephone">Celular</label>
+          <input required type="tel" id="telephone" name="user_telephone">
+
+		  <label for="message">Mensagem:</label>
+          <textarea id="message" name="usermessage"></textarea>
+        </fieldset>
+
+        <button type="submit">ENVIAR</button>
+        <button type="reset">LIMPAR</button>
+      </form>
+	</section>
+<!--/contato -->
+
+
+	<!--footer -->
+	<footer class="main-footer">
+		<div class="social-icons">
+		<ul>
+        <li><a href="https://www.instagram.com/sigridbr.br" target= "_blank" class="social instagram">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/sigrid-rodrigues-671774139" target= "_blank" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/sigrid-fr" target= "_blank" class="social github">Github</a></li>
+      </ul>
+     </div>
+      <p class="copyright">Copyright 2020, Sigrid Rodrigues</p>
+	</footer>
+
+    <!-- JavaScript -->
+    <script src="js/nav-select.js"></script>
+	
+</body>
+</html>
